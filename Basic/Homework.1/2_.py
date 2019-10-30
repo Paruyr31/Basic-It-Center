@@ -1,0 +1,12 @@
+a = 10 #int var
+print("a = " + str(a))
+print("a֊ն int տիպի փոփոխական է։")
+a = 23.6 #int to str (cast)
+print("a = " + str(a))
+print("a֊ն արդեն float տիպի փոփոխական է։")
+a = "hello" #float to str (cast)
+print("a = " + a)
+print("a֊ն արդեն str տիպի փոփոխական է։")
+a = False #str to bool (cast)
+print("a = " + str(a))
+print("a֊ն արդեն bool տիպի փոփոխական է։")
