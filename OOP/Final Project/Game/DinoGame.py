@@ -296,7 +296,6 @@ thr.start()
 file = open("record.txt", "r")
 while run_game():
     scores = 0
-    max_scores = file.readline()
     make_jump = False
     jump_counter = 30
     usr_y = dis_height - usr_height - 100
