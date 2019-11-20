@@ -1,0 +1,11 @@
+{% extends 'blog/base.html' %}
+{% block title %}
+    <title>Students</title>
+{% endblock %}
+
+{% block body %}
+    {% for student in students %}
+        {{ student.name }}
+        {{ student.surname }}
+    {% endfor %}
+{% endblock %}
